@@ -4,12 +4,12 @@
   переключая тему
 */
 
-.theme_dark {
+.page.theme_dark {
   --accent-color: #ff0070;
   --text-color: #f1b2ce;
   --title-color: #db00ff;
   --background-color: #000028;
-  --main-font: 'IBM Plex Mono', sans-serif;
+  --main-font: 'IBM Plex Mono', monospace;
   --font-size: 18px;
 }
   
@@ -19,6 +19,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  
 }
 
 .dark__theme-item-only {
@@ -33,3 +34,6 @@
   gap: 10px;
   margin: 0 8px 0 0;
 }
+
+
+
