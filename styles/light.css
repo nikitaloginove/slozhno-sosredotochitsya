@@ -34,24 +34,14 @@
 }
 
 .page.theme_light .decorated-zone::before {
-  content: '';
-  width: 25.036px;
-  height: 25.002px;
-  border-block-start: 1px solid var(--text-color);
-  border-block-end: none;
-  border-inline-start: none;
+  border-block-start: 1px solid var(--text-color); 
   border-inline-end: 1px solid var(--text-color);
-  justify-self: end;
+  
 }
 
 .page.theme_light .decorated-zone::after {
-  content: '';
-  width: 25.036px;
-  height: 25.002px;
-  border-block-start: none;
   border-block-end: 1px solid var(--text-color);
   border-inline-start: 1px solid var(--text-color);
-  border-inline-end: none;
 }
 
 .page.theme_light .header__theme-menu-button:focus {
@@ -59,20 +49,16 @@
 }
 
 .page.theme_light .header__theme-menu-button:focus-visible {
-  border-block-start: none;
   border-block-end: 1px solid var(--text-color);
-  border-inline-start: none;
-  border-inline-end: none;  
+   
 }
 
 .page.theme_light .header__theme-menu-button:hover {
   border: 1px solid rgba(50, 49, 45, 0.40);
-  padding: 0 13px;
 }
 
 .page.theme_light .header__theme-menu-button_active {
   border: 1px solid var(--text-color);
-  padding: 0 13px;
 }
 
 .page.theme_light .title-decor {
@@ -114,24 +100,13 @@
   }
 
   .page.theme_auto .decorated-zone::before {
-    content: '';
-    width: 25.036px;
-    height: 25.002px;
     border-block-start: 1px solid var(--text-color);
-    border-block-end: none;
-    border-inline-start: none;
     border-inline-end: 1px solid var(--text-color);
-    justify-self: end;
   }
 
   .page.theme_auto .decorated-zone::after {
-    content: '';
-    width: 25.036px;
-    height: 25.002px;
-    border-block-start: none;
     border-block-end: 1px solid var(--text-color);
     border-inline-start: 1px solid var(--text-color);
-    border-inline-end: none;
   }
 
   .page.theme_auto .header__theme-menu-button:focus {
@@ -139,20 +114,15 @@
   }
 
   .page.theme_auto .header__theme-menu-button:focus-visible {
-    border-block-start: none;
-    border-block-end: 1px solid var(--text-color);
-    border-inline-start: none;
-    border-inline-end: none;  
+    border-block-end: 1px solid var(--text-color); 
   }
 
   .page.theme_auto .header__theme-menu-button:hover {
     border: 1px solid rgba(50, 49, 45, 0.40);
-    padding: 0 13px;
   }
 
   .page.theme_auto .header__theme-menu-button_active {
     border: 1px solid var(--text-color);
-    padding: 0 13px;
   }
 
   .page.theme_auto .title-decor {

@@ -22,18 +22,7 @@
   
 }
 
-.dark__theme-item-only {
-  max-width: 52px;
-  max-height: 26px;
-  display: flex;
-  color: var(--accent-color);
-  justify-self: end;
-  justify-content: end;
-  align-items: center;
-  position: absolute;
-  gap: 10px;
-  margin: 0 8px 0 0;
-}
+
 
 
 
